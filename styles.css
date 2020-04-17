@@ -68,3 +68,19 @@ canvas {
 .rules.show {
   transform: translateX(0);
 }
+
+.note {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  #canvas {
+    width: 85%;
+    height: 50%;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+}
